@@ -1,0 +1,55 @@
+@harset "utf-8"; 
+
+body,div{padding:0; margin:0;}
+
+
+body{
+  
+  background-color:#cfb48e;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+  background: url(/images/text.jpg) no-repeat center center fixed;
+  background-size :cover;
+}
+
+#titlename{
+	text-align:center;
+	margin-left:15%;
+	margin-right:15%;
+
+ }
+#nav ul{ 
+	width:540px; 
+	height:35px; 
+	margin:0 auto;/*水平居中*/ 
+	margin-top:30px;/*顶部30px*/
+} 
+ 
+#nav ul li{ 
+	width:100px; 
+	float:left; 
+	list-style:none; 
+	background:#d8dada; 
+	line-height:35px;
+	padding:0 10px;
+} 
+
+#content{
+	text-align:center;
+	margin-top:0px;
+	margin-right:15%;
+	padding-left:250px;
+	padding-right:3px;
+	min-width:244px;
+	height:520px;
+}
+
+#copyright{
+	background-color:#DDD;
+	margin-right:15%;
+	padding-left:15%;
+	float:both;
+	min-width:200px;
+	height:20px;
+
+}
