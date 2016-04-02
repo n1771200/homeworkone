@@ -2,29 +2,42 @@
 	
 
 body {font-family: 微软雅黑;}
-h3{
-	display:table;
-line-height:1000px;
-height:1000px;
+h1 {
+	font-size:60px;
+	color:white;
+	
 }
-}
-h1 {font-size:60px;}
 h2 {font-size:40px;}
 p {font-size:20px;}
+
 body{
-	background-color:#DDD;
+	
 	text-align: center;
 	text-shadow: 0 1px 3px rgba(0,0,0,.5);
-	background: url(../images/1234.jpg) no-repeat center center fixed;
+	background: url(../images/1234.jpg) no-repeat  fixed;
 	background-size:content;
-	background-color: gray; padding: 20px;
+	background-color: gray; 
+	padding: 20px;
 	background-repeat: repeat;
 	
 }
 
+.TP{
+	text-align	:center;
+	position:absolute ;
+	height:500 ;
+	margin-left:-45%;
+	top:240;
+	
+}
+.to{
+	
+	
+	
+}
 #titlename{
 	color:#DDD;
-	text-align:center;
+	text-align	:center;
 	margin-left:15%;
 	margin-right:15%;
 
@@ -45,6 +58,7 @@ body{
 	line-height:35px;
 	padding:0 10px;
 } 
+
 
 #content{
 	color:#DDD;
